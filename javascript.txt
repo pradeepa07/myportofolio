@@ -1,0 +1,6 @@
+JAVA SCRIPT  NOTES
+Math.floor -------> it is used for the decimal point for example 3.4 is Math.floor as 3
+Math.pow -------->it is used for squaring the number (number , power) example (3 , 2)is a 3 power 2
+Math.round------>it is used for rounding the number fro ex 3.5 as changed to 4 using Math.round
+return--------------> used to get an output
+console.log-------->used to get an output

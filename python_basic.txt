@@ -1,0 +1,40 @@
+#variable----> used to store a value
+#int
+one=1
+#float
+value = 22.345
+#string
+name="pradeepa"
+#boolean
+true_boolean = True
+false_boolean = False
+#condition
+#if
+if 2<5:
+    print("2 is greatert than 5");
+    
+#if else
+if 2>5:
+    print("the condition is true");
+else:
+    print("the condition is false");
+#elif
+if 2>5:
+    print("2 is greater than 5")
+elif 5>2:
+    print("5 is greater than 2")
+else:
+    print("the condition is false")
+    
+#loop
+count=0;
+while count<=10:
+    count=count+1;
+    print(count)
+    
+    
+    
+    
+    
+    
+    
