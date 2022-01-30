@@ -1,0 +1,242 @@
+*
+{  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar style */
+
+.topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 136, 133);
+    position: sticky;
+    top: 0;
+}
+.topbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.topbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.topbar ul li a{
+    text-decoration: none;
+    color: cyan;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.topbar ul li a:hover{
+    background-color: darkgrey;
+    color: darkred;
+    box-shadow: 0 0 10px darkslategray;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 0.548);
+    justify-content: center;
+    align-items: center;
+    color: lavenderblush;
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('bck.webp') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -2;
+    opacity: .5;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+/* About section */
+#about{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 100px;
+    
+    background-color: #424142;
+}
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7px;
+    color: rgb(229, 226, 226);
+    font-size: 1.5rem;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+/* skills */
+
+
+.skill{
+    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 300px;
+    background-color: #424142;
+    top: 30%;
+    
+    
+}
+.skill li{
+    margin: 10px 0; 
+    padding: 2px;  
+    color: rgb(229, 226, 226);
+   
+}
+
+.bar{
+    background: #8be9e1;
+
+    text-align: center;
+    align-items: center;
+    display: block;
+    
+    width: 50%;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #12e4d9b3;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(23, 197, 212)0% , rgb(6, 88, 98)100%) ;
+}
+.html5{
+    width: 90%;
+    animation: html5 3s;
+}
+.css
+{
+    width: 60%;
+    animation: css 3s;
+}
+.c
+{
+    width: 70%;
+    animation: c 3s;
+}
+.cplus
+{
+    width: 50%;
+    animation: cplus 3s;
+}
+.sql
+{
+    width: 50%;
+    animation: sql 3s;
+}
+.python
+{
+    width: 65%;
+    animation: python 3s;
+}
+.js
+{
+    width: 35%;
+    animation: js 3s;
+}
+@keyframes html5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes cplus{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
